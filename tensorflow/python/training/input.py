@@ -122,7 +122,7 @@ def input_producer(input_tensor,
       `element_shape` must be defined.
     element_shape: (Optional.) A `TensorShape` representing the shape of a
       row of `input_tensor`, if it cannot be inferred.
-    num_epochs: (Optional.) An integer. If specified `input_producer` produces
+    num_epochs: (Optional.) An integer. If specified, `input_producer` produces
       each row of `input_tensor` `num_epochs` times before generating an
       `OutOfRange` error. If not specified, `input_producer` can cycle through
       the rows of `input_tensor` an unlimited number of times.
